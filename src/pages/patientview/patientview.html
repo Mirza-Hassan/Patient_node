@@ -1,0 +1,56 @@
+<!--
+  Generated template for the PatientviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>patientview</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  
+   <button ion-button (click)="back()">Back</button>
+	 
+	 <ion-list>		Patient Name{{hey.patientName}}	</ion-list>
+	<ion-list >		Patient Age {{hey.patientAge}}	</ion-list>
+	<ion-list >		ContactNo {{hey.contactNo}}	</ion-list>
+	<ion-list >		Diseases {{hey.diseases}}	</ion-list>
+	<ion-list >		Date {{hey.date}}	</ion-list>
+	<ion-list >		 Gender {{hey.gender}}	</ion-list>
+<div>
+		<button ion-button (click)="deletepatient(hey)">Delete</button>
+</div>
+	<!-- <ion-list>{{selectedItem.patientName}}</ion-list>
+	<ion-list>{{selectedItem.patientAge}}</ion-list>
+	<ion-list>{{selectedItem.contactNo}}</ion-list>
+	<ion-list>{{selectedItem.gender}}</ion-list> -->
+
+	<!-- <button ion-button (click)="deletePatient(selectedItem)">Delete</button> -->
+	<!-- <ul *ngFor="let patient of Patient">
+		<li ><strong>PatientName:</strong> {{hey.patientName}}</li>
+		<li ><strong>PatientAge:</strong> {{hey.patientAge}}</li>
+		<li ><strong>ContactNo:</strong> {{hey.contactNo}}</li>
+		<li ><strong>Diseases:</strong> {{hey.diseases}}</li>
+		<li ><strong>Date:</strong> {{hey.date}}</li>
+		<li ><strong>Gender</strong> {{hey.gender}}</li>
+		<li > <button ion-button (click)="deletepatient(selectedItem)">Delete</button></li>
+	</ul> -->
+	
+	<!-- <ion-list>		Patient Name {{hey.patientName}}	</ion-list>
+	<ion-list>		Patient Age {{hey.patientAge}}	</ion-list>
+	<ion-list>		ContactNo {{hey.contactNo}}	</ion-list>
+	<ion-list>		Diseases {{hey.diseases}}	</ion-list>
+	<ion-list>	  gender {{hey.gender}}	</ion-list>
+	<ion-list>		Date{{hey.date}}	</ion-list> -->
+
+
+	<!-- <div > -->
+		<!-- <button ion-button (click)="deletePatient(selectedItem)">Delete</button> -->
+	<!-- </div> -->
+</ion-content>
